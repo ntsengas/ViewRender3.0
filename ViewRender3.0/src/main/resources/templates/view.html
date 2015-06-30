@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap 101 Template</title>
+<link
+	href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.5/css/bootstrap.min.css"
+	th:href="@{/webjars/bootstrap/3.3.5/css/bootstrap.min.css}"
+	rel="stylesheet" media="screen" />
+<link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Project name</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+
+	<div class="container">
+
+
+
+		<div class="starter-template">
+
+			<div class="row">
+				<div class="col-md-8">
+
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Panel title</h3>
+						</div>
+						<div class="panel-body">
+							<div>Test</div>
+
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect1" th:text="${name}"></label>
+										<select class="form-control">
+										  <option>1 This is a long one</option>
+										  <option>2 This is a long one</option>
+										  <option>3 This is a long one</option>
+										  <option>4 This is a long one</option>
+										  <option>5 This is a long one</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect2">Disabled select menu</label>
+										<select id="disabledSelect2" class="form-control">
+											<option>Disabled select</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect3">Disabled select menu</label>
+										<select id="disabledSelect3" class="form-control">
+											<option>Disabled select 3</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect4">Disabled select menu</label>
+										<select id="disabledSelect4" class="form-control">
+											<option>Disabled select 4</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect5">Disabled select menu</label>
+										<select id="disabledSelect5" class="form-control">
+											<option>Disabled select 5</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect6">Disabled select menu</label>
+										<select id="disabledSelect6" class="form-control">
+											<option>Disabled select 6</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3"></div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect7">Disabled select menu</label>
+										<select id="disabledSelect7" class="form-control">
+											<option>Disabled select 7</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="disabledSelect8">Disabled select menu</label>
+										<select id="disabledSelect8" class="form-control">
+											<option>Disabled select 8</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3"></div>
+								<div class="col-md-3">
+									<label for="disabledSelect9">Disabled select menu</label>
+									<select id="disabledSelect9" class="form-control">
+										<option>Disabled select 9</option>
+									</select>
+								</div>
+								<div class="col-md-3">
+									<label for="disabledSelect10">Disabled select menu</label>
+									<select id="disabledSelect10" class="form-control">
+										<option>Disabled select 10</option>
+									</select>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-4">
+
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Panel title</h3>
+						</div>
+						<div class="panel-body">
+							<div>Test</div>
+							<h1>Bootstrap starter template</h1>
+							<p class="lead">
+								Use this document as a way to quickly start any new project.<br />
+								All you get is this text and a mostly barebones HTML document.
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Panel title</h3>
+						</div>
+						<div class="panel-body">
+							<div>Test</div>
+							<h1>Bootstrap starter template</h1>
+							<p class="lead">
+								Use this document as a way to quickly start any new project.<br />
+								All you get is this text and a mostly barebones HTML document.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Panel title</h3>
+						</div>
+						<div class="panel-body">
+							<div>Test</div>
+							<h1>Bootstrap starter template</h1>
+							<p class="lead">
+								Use this document as a way to quickly start any new project.<br />
+								All you get is this text and a mostly barebones HTML document.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Panel title</h3>
+						</div>
+						<div class="panel-body">
+							<div>Test</div>
+							<h1>Bootstrap starter template</h1>
+							<p class="lead">
+								Use this document as a way to quickly start any new project.<br />
+								All you get is this text and a mostly barebones HTML document.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- /.container -->
+	<script
+		src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js"
+		th:src="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+	<script
+		src="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.5/bootstrap.min.js"
+		th:src="@{/webjars/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
+</body>
+</html>
